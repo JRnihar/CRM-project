@@ -1,0 +1,87 @@
+body{
+    font-family: "Roboto", "Odoo Unicode Support Noto", sans-serif;
+    font-size: 1.08333333rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #444B5A;
+}
+
+.Qutation-body{
+    border: 1px solid rgb(230, 214, 214);
+    width: 100%;
+    padding: 10px;
+}
+.navbar{
+    background-color: #714B67;
+    height: 41px;
+    /* width: 41px; */
+    
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #e7ebf3;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-item a{
+    color: #e7ebf3;
+    padding: 0px 16px !important;
+    font-size: 13px;
+    font-family: inherit;
+}
+.btn-link{
+    color: #017e84 !important; 
+    text-decoration: none;
+}
+a{
+    color: #e7ebf3 !important;
+}
+.fa-solid{
+    color: antiquewhite;
+}
+.footer-icon{
+    color: black !important;
+}
+.nav-item-2 a{
+    color: #017e84!important;
+}
+.priority-icon{
+    color: rgb(245, 245, 8) !important;
+}
+.navbar {
+    padding-top: -6.5rem !important;
+    padding-bottom: -0.5rem !important;
+}
+.navbar-toggler{
+  border-color: azure;
+  color: black;
+}
+.nav-link-Administrator{
+    font-size: 13px !important;
+    text-decoration: none;
+}
+
+.tabcontent {
+    display: none;
+}
+.tabcontent div{
+    line-height: 200%;
+}
+/* .tab-contant{
+    display: flex !important;
+	  justify-content: center;
+	  align-items: center;
+} */
+.tablinks{
+    list-style: none;
+    /* display: block; */
+    margin-right: 20px;
+    color: #017e84;
+    cursor: pointer;
+}
+.tablink{
+    display: flex !important;
+    
+    /* height: 100% */
+}

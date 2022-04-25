@@ -85,3 +85,32 @@ a{
     
     /* height: 100% */
 }
+.input1{
+    position: relative;
+    /* width: 600px;
+    height: 100px;
+    margin: 10px auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* padding: 20px; */
+    /* caret-color: #ff1e00; */
+    /* font-size: 30px; */
+    border: 1px solid;
+    border-image: linear-gradient(to right, #0d0c0c 25%, #121212 25%, #080808 50%) 0 0 1;
+    background-color: #efefef;
+    transition: background-color .5s ease;
+}
+input:focus {
+    outline: 0;
+
+}
+
+buttom {
+    border: 0;
+    outline: 0;
+}
+
+
+
+
